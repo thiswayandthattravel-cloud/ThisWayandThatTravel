@@ -1,89 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>This Way &amp; That Travel, LLC | The Immersive Group</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Way & That Travel</title>
+    <!-- Link your CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Optional favicon -->
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Header / Hero Section -->
+    <header>
+        <h1>Welcome to This Way & That Travel</h1>
+        <p>Your dream vacation starts here!</p>
+        <a href="#book" class="button">Book Now</a>
+    </header>
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#our-group">Our Group</a></li>
+        </ul>
+    </nav>
 
-<style>
-/* ═══════════════════════════════════════
-RESET & BASE
-═══════════════════════════════════════ */
-*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>This Way & That Travel is dedicated to making your vacation dreams come true.</p>
+    </section>
 
-:root {
---gold: #f0c040;
---gold-dk: #d4a017;
---navy: #0b1a2b;
---navy-lt: #132d46;
---teal: #1a6e7a;
---white: #ffffff;
---glass: rgba(255,255,255,.07);
---radius: 12px;
---shadow: 0 8px 32px rgba(0,0,0,.35);
-}
+    <!-- Destinations Section -->
+    <section id="destinations">
+        <h2>Destinations</h2>
+        <p>Explore our curated travel packages, cruises, and worldwide destinations.</p>
+    </section>
 
-html { scroll-behavior: smooth; }
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: ‪(407) 630-7629‬</p>
+        <p>Email: info@thiswayandthattravel.com</p>
+    </section>
 
-body {
-font-family: 'Poppins', sans-serif;
-background: linear-gradient(160deg, var(--navy), #203a43, #2c5364);
-color: var(--white);
-line-height: 1.6;
-}
+    <!-- Our Group Section -->
+    <section id="our-group">
+        <h2>Our Group</h2>
+        <p>Part of The Immersive Group: Immersive Design Studio, Immersive Business Works, LLC.</p>
+    </section>
 
-h1, h2, h3 { font-family: 'Playfair Display', serif; }
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 This Way & That Travel. All rights reserved.</p>
+    </footer>
 
-a { color: var(--gold); text-decoration: none; transition: color .3s; }
-a:hover { color: #fff; }
-
-img { max-width: 100%; display: block; }
-
-section { padding: 80px 20px; }
-
-.container {
-max-width: 1100px;
-margin: 0 auto;
-}
-
-.section-heading {
-text-align: center;
-font-size: 2.2rem;
-color: var(--gold);
-margin-bottom: 12px;
-}
-
-.section-sub {
-text-align: center;
-font-size: 1.05rem;
-color: #b0bec5;
-margin-bottom: 48px;
-}
-
-/* ═══════════════════════════════════════
-NAV
-═══════════════════════════════════════ */
-nav {
-position: fixed; top:0; left:0; width:100%; z-index:1000;
-background: rgba(11,26,43,.92);
-backdrop-filter: blur(10px);
-display: flex; align-items: center; justify-content: space-between;
-padding: 14px 40px;
-box-shadow: 0 2px 20px rgba(0,0,0,.4);
-}
-nav .logo {
-font-family: 'Playfair Display', serif;
-font-size: 1.35rem;
-color: var(--gold);
-}
-nav .logo span {
-color: var(--white); font-weight:300;
-font-family:'Poppins',sans-serif; font-size:.8rem;
-display:block; margin-top:-2px; opacity:.7;
-}
-nav ul { list-style:none; display:flex; gap:28px; }
-nav ul li a { font-weight:600; font-size:.95rem; color:#ccc; }
-nav ul li a:hover { color:var(--gold);
+    <!-- Optional JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
